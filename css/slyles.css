@@ -46,13 +46,17 @@ img {
 /* Header */
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+  
+
 }
 
 .header-container {
     display: flex;
     align-items: center;
+    width: 1158px;
+    border-bottom: 1px solid #e7e9fc;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-logo {
@@ -66,13 +70,14 @@ img {
     color: var(--portfolio-filters);
     display: flex;
     align-items: center;
+    margin-right: 76px;
 }
 
 .header-logo span {
     color: var(--subtitle-color);
     display: flex;
     align-items: center;
-    margin-right: 76px;
+    
 }
 
 .header-navigation {
