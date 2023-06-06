@@ -224,6 +224,10 @@ img {
 
 /* Activity */
 
+.activity {
+    padding-bottom: 120px;
+}
+
 .activity-title {
     font-weight: 700;
     font-size: 36px;
@@ -234,14 +238,14 @@ img {
     color: var(--subtitle-color);
     margin-bottom: 72px;
 }
+
 .activity-list {
     display: flex;
     gap: 24px;
-    padding: 0 156px;
+    
 }
 .activity-item {
     width: calc((100% - 48) / 3);
-    padding-bottom: 120px;
     
 }
 /* Team */
