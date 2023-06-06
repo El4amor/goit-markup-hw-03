@@ -315,10 +315,6 @@ img {
     
 }
 
-.footer-container {
-    
-}
-
 .footer-logo {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -347,11 +343,14 @@ img {
 /* PORTFOLIO */
 
 .header-menu-link-portfolio {
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--subtitle-color);
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-menu-link-portfolio:hover {
