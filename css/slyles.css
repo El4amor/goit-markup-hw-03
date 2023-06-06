@@ -181,13 +181,17 @@ img {
 
 /* Features */
 
+.features-head {
+    visibility: hidden;
+}
+.features {
+    padding: 120px 0 120px
+}
+
 .features-list {
     display: flex;
-    padding-top: 120px;
-    padding-left: 156px;
-    padding-right: 156px;
-    padding-bottom: 120px;
     gap: 24px;
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
 .features-subtitle {
@@ -200,7 +204,6 @@ img {
 }
 
 .features-item {
-    width: calc((100% - 72) / 4);
 }
 
 .features-item-text {
