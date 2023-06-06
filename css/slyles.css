@@ -47,7 +47,6 @@ img {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-
 }
 
 .header-container {
@@ -82,8 +81,6 @@ img {
     display: flex;
     align-items: center; 
     flex-grow: 1;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-menu {
@@ -97,6 +94,9 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--subtitle-color);
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
