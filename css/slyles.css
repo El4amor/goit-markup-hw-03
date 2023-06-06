@@ -5,6 +5,7 @@
     --button-background-color: #f4f4fd;  
     --litle-text: #434455;
     --header-menu-link: #404bbf;
+    --border-bttn-color: #e7e9fc;
 
 }
 body {
@@ -371,7 +372,6 @@ img {
     border-radius: 4px;
     justify-content: center;
     align-items: center;
-    padding: 12px 24px;
     margin-bottom: 72px;
 }
 
@@ -390,15 +390,20 @@ img {
     color: var(--portfolio-filters);
     background-color: #F4F4FD;
     cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid var(--border-bttn-color);
+    border-radius: 4px;
 }
 
 .filters-btn:hover {
     color: var(--title-color);
     background-color: var(--header-menu-link);
+    border: 1px solid transparent;
 }
 .filters-btn:focus {
     color: var(--title-color);
     background-color: var(--header-menu-link);
+    border: 1px solid transparent;
 }
 
 .cards-content-name {
