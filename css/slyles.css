@@ -252,15 +252,13 @@ img {
 
 .team {
     background-color:var(--button-background-color);
+    padding: 120px 0 120px
 }
 
 .team-list {
     background-color:var(--button-background-color);
     display: flex;
     gap: 24px;
-    padding-left: 156px;
-    padding-right: 156px;
-    padding-bottom: 120px;
 }
 
 .team-item {
@@ -277,7 +275,6 @@ img {
     text-align: center;
     text-transform: capitalize;
     color: var(--subtitle-color);
-    padding-top: 120px;
     margin-bottom: 72px;
     
 }
@@ -286,8 +283,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 8px;
+    text-align: center;
     padding: 32px 16px;
 }
 
@@ -296,6 +292,8 @@ img {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    align-items: center;
+    margin-bottom: 8px;
     color: var(--subtitle-color);
 }
 
@@ -303,6 +301,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
     color: var(--litle-text);
     
 }
